@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/nameItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:gravity="center_vertical"
+        android:textSize="20sp"
+        android:textColor="#9999"
+        android:background="#f555"
+        android:padding="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/quantityItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#9999"
+        android:background="#f555"
+        android:padding="30dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#9999"
+        android:background="#f555"
+        android:padding="30dp"/>
+
+    <CheckBox
+
+        android:id="@+id/checkboxItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:textColor="#9999"
+        android:background="#f555"
+        android:padding="30dp"
+        android:paddingRight="0dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:buttonTint="@color/toolbar"
+
+        />
+
+
+</LinearLayout>
